@@ -20,3 +20,13 @@ body {
     align-items: center;
     gap: 5px;
 }
+
+.row {
+    flex-direction: row;
+    width: 100%;
+}
+
+.col {
+    justify-content: center;
+    flex-direction: column;
+}
