@@ -30,3 +30,7 @@ body {
     justify-content: center;
     flex-direction: column;
 }
+
+.p-3 {
+    padding: 16px;
+}
