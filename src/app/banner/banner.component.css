@@ -1,0 +1,19 @@
+:host{
+    background-color: #1976d2;
+    max-height: 430px;
+    width: 100%;
+    display: flex;
+}
+
+img {
+    height: 100%;
+    max-height: inherit;
+    width: 50%;
+    object-fit: cover;
+
+}
+
+h1 {
+    font-size: 50px;
+    line-height: initial;
+}
