@@ -1,6 +1,6 @@
 :host {
     width: 100%;
-    height: 67px;
+    height: 58px;
     background-color: #ffffff;
     padding: 16px;
     display: flex;
@@ -24,11 +24,22 @@ input {
 }
 
 h1{
-    color: #08294b;
-    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 32px;
     margin: 0;
 }
 
 a{
     text-decoration: none;
+}
+
+#logo {
+    width: 60px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #1976d2;
+    
 }

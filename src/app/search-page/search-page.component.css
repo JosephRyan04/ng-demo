@@ -1,0 +1,30 @@
+.main {
+    margin-top: 25px;
+}
+
+.row {
+    align-items: flex-start;
+}
+
+tr {
+   padding-bottom: 10px;
+}
+
+.mat-elevation-z1 {
+    width: 75%;
+}
+
+
+mat-card {
+    width: 25%;
+    margin-right: 2%;
+    padding: 20px;
+}
+
+mat-form-field {
+    margin-bottom: 20px;
+}
+
+.mat-column-name {
+    height: 100px;
+}

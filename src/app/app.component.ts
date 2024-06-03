@@ -5,6 +5,7 @@ import {RouterModule} from '@angular/router';
 import { TopJobsComponent } from "./top-jobs/top-jobs.component";
 import { BannerComponent } from "./banner/banner.component";
 
+
 @Component({
     selector: 'app-root',
     standalone: true,

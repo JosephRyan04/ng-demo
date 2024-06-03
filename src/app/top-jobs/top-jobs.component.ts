@@ -1,6 +1,7 @@
 import { NgFor } from '@angular/common';
-import { Component } from '@angular/core';
-import { testdata } from '../testdata';
+import { Component, OnInit } from '@angular/core';
+import { JobService } from '../services/job.service';
+import { Job } from '../testdata';
 
 /**
  * This component displays a list of job postings
@@ -14,6 +15,13 @@ import { testdata } from '../testdata';
   templateUrl: './top-jobs.component.html',
   styleUrl: './top-jobs.component.css'
 })
-export class TopJobsComponent {
-  testdata = [...testdata];
+export class TopJobsComponent implements OnInit {
+  jobs: Job[] = [];
+  constructor(private jobService: JobService) { }
+
+  ngOnInit(): void {
+    
+      this.jobs = this.jobService.getTopJobs(4);
+    
+  }
 }
